@@ -144,7 +144,7 @@ else:
 st.divider()
 st.write('These are real reviews given by a verified buyer.')
 st.write('Source : amazon database')
-
+st.markdown('contact - sagarsharma23112@gmail.com')
 
 
 

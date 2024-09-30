@@ -2,3 +2,4 @@ streamlit
 matplotlib
 pandas  # If you're using pandas
 numpy   # If you're using numpy
+seaborn

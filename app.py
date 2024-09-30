@@ -34,7 +34,7 @@ st.logo(logo_url)
 st.sidebar.title('Select your Model')
 asin_list = original_df.variantAsin.unique()
 
-option = st.sidebar.selectbox('Select Iphone',['iPhone15','iPhone14','iPhone13'])
+option = st.sidebar.selectbox('Select Iphone',['iPhone13','iPhone14','iPhone15'])
 if option == 'iPhone15':
     
     selected = st.sidebar.selectbox('Select iPhone Model',[i['model'] for i in iphone_data.iPhones['iPhone15']])
